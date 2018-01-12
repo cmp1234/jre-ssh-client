@@ -1,4 +1,4 @@
-FROM cmp1234/java:security-latest-alpine3.6
+FROM cmp1234/java:security-latest
 
 COPY build_openssh.sh /build_openssh.sh 
 RUN chmod +x /build_openssh.sh
